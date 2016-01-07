@@ -203,29 +203,19 @@ Commit your practice code.
 
 2. Have fun with [Maven in 5 minutes](http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html). 
 
-3. Explore [Maven build life cycles phases and goals](http://tutorials.jenkov.com/maven/maven-tutorial.html#maven-build-life-cycles-phases-and-goals)
-
-4. [Maven life cycle](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html)
-
-5. Maven: [best practices](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
+3. Maven: [best practices](http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-pom-best-practice.html)
 
 #####Practice:#####
 
-(It is assumed that Maven is already installed and working. I think it is not needed as an excercise to install maven locally).
+(It is assumed that Maven is already installed and working).
 
-1. Create a simple Maven project:
-   - Here, the idea is to use the Maven Archetype plugin from the command line. Run the archetype:generate goal, selecting default archetype suggested by pressing "Enter". Create a simple a simple application that takes a name from console and print a greeting using the given name.
-2. Building a Simple Project:
-   - Create, compile, test, and install the Maven project created on the previous point. To prove that this program works, run it from the command line.
-3. Customizing a Maven Project
-   Expand the project created on point 2. The idea is to start playing with adding some dependencies, adding some source code, and customizing the project to suit specific needs. 
-4. A Simple Java Application  
-5. A Multi-module Project.
-   Create a multi-module project that combines work done on previous points (2 and 5). The idea when completing this point is to be able to use Maven to develop complex, multi-module projects.
+1. Create and build a simple Maven project:
+2. Customize the Maven project by adding new dependencies: log4j, junit.
+3. Create a simple unit test under src/test/java and run it. Then skip the unit test by property or by adding the skipping test configuration to your pom.xml file.
 
 #####Key Points:#####
 
-1,4,5
+1,2,3
 
 #####Commit:#####
 
