@@ -47,9 +47,9 @@ exercises**
 
     * [Topic 5: SQL - MySql](#topic-5-sql---mysql-1-day)
 
-    * [Topic 6: NoSQL - MongoDB](#topic-6-nosql--mongodb-2-day)
+    * [Topic 6: NoSQL - MongoDB](#topic-6-nosql---mongodb-2-day)
 
-    * [Topic 7: Spring Data & MongoDB](#topic-8-spring-data--mongodb-2-day)
+    * [Topic 7: Spring Core & REST](#topic-7-spring-core--rest-3-day)
 
 10. [Your First Project Starts Now!](#your-first-project-starts-now)
 
