@@ -342,7 +342,37 @@ Commit your practice code.
 → [index](#index)
 
 
-####Topic 6: Spring Core & REST (3 day)####
+####Topic 6: NoSQL - MongoDB (2 day)####
+
+#####Reading:#####
+1. [SQL vs. NoSQL DB](http://www.thegeekstuff.com/2014/01/sql-vs-nosql-db/)
+
+2. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
+
+3. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
+
+4. [Morphia to Map Java objects in MongoDB](https://dzone.com/articles/using-morphia-map-java-objects)
+
+
+#####Practice:#####
+
+1. Using the same SQL-MySql data model, map it to the corresponding database, collections and documents.
+2. Fetch all students whose notes in a specific course were greater than 4.
+3. Fetch all courses ordered by name for a given teacher.
+4. Create a new project using Maven and Morphia to map the objects created in 1. Create the necessary DAOs to get same result than 2.
+
+#####Key Points:#####
+
+1,2,4
+
+#####Commit:#####
+
+Commit your practice code.
+
+→ [index](#index)
+
+
+####Topic 7: Spring Core & REST (3 day)####
 
 #####Reading:#####
 1. [Quick guide](http://www.tutorialspoint.com/spring/spring_quick_guide.htm)
@@ -363,67 +393,6 @@ Commit your practice code.
 #####Key Points:#####
 
 2
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-
-####Topic 7: ORM (1 day)####
-
-#####Reading:#####
-1. [Spring ORM integration](http://docs.spring.io/spring/docs/current/spring-framework-reference/html/orm.html)
-
-2. Spring Boot and [JPA integration](http://spring.io/guides/gs/accessing-data-jpa/)
-
-#####Practice:#####
-
-1. Configure Spring ORM to connect to the DB created on Topic 5.
-2. Implement JPA objects for the entities you created on Topic 5.
-3. Create one or more DAO or repository with methods to:
-    - Store a student, teacher and course.
-    - Fetch all students, fetch all teachers, fetch all courses.
-4. Create a method to fetch all courses of a given student.
-5. Create a method to fetch all students of a given course.
-
-#####Key Points:#####
-
-1,2,3,4,5
-
-#####Commit:#####
-
-Commit your practice code.
-
-→ [index](#index)
-
-####Topic 8: Spring Data & MongoDB (2 day)####
-
-#####Reading:#####
-1. [SQL to MongoDB Mapping Chart](http://docs.mongodb.org/manual/reference/sql-comparison)
-
-2. [Installing MongoDB](http://docs.mongodb.org/manual/installation)
-
-3. [Getting Started With MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
-
-4. [Java And MongoDB](http://docs.mongodb.org/ecosystem/tutorial/getting-started-with-java-driver)
-
-5. [Spring and Mongo](http://www.mkyong.com/mongodb/spring-data-mongodb-hello-world-example/)
-
-6. [Spring boot and MongoDB](http://docs.mongodb.org/manual/tutorial/getting-started/)
-
-#####Practice:#####
-
-1. Using the same SQL-MySql data model, map it to the corresponding database, collections and documents.
-2. Fetch all students whose notes in a specific course were greater than 4.
-3. Fetch all courses ordered by name for a given teacher.
-4. Add a new field to “courses” collection to identify which courses are finished.
-5. Create a new project using Spring Data for MongoDB framework and translate items 2, 3 and 4.
-
-#####Key Points:#####
-
-1,2,3,5
 
 #####Commit:#####
 
