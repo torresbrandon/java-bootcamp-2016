@@ -307,18 +307,17 @@ Commit your practice code.
    - A teacher can be assigned to several courses.
    - For each course, each student has 3 partial notes and a final note.
 
-2. Create all relationship that you think they are required
-3. Insert information for 3 teachers, 5 courses and 20 students per course
-4. List students and teachers for a given course. The output format should be:
+Create all relationship that you think they are required
+2. Insert information for 3 teachers, 3 courses and 10 students per course
+3. List students and teachers for a given course. The output format should be:
 
         Course: <course-name>
         Teacher: <last-name>, <first-name>
         Students:
           <last-name>, <first-name> (ordered by alphabetically by last name)
 
-5. List final course notes for a given student (the input should be the registration number). They should be ordered by highest notes and course name)
-6. Percentage of students that passed/failed a given course.
-7. For a given teacher, list the timeline for each course that he is assigned to (ordered by date), and the course name. The format should be:
+4. Percentage of students that passed/failed a given course.
+5. For a given teacher, list the timeline for each course that he is assigned to (ordered by date), and the course name. The format should be:
 
         Teacher: <last-name>, <first-name>
         Schedule:
@@ -326,17 +325,16 @@ Commit your practice code.
           Monday 15:00 - 17:30: <course-name>
           Friday 08:45 - 10:40: <course-name>
 
-8. Identify and Optimize all queries
-9. Create a table for students that have more than 1 partial note with a value less than 7. The table should contain the following information:
+6. Identify and Optimize all queries
+7. Create a table for students that have more than 1 partial note with a value less than 7. The table should contain the following information:
     * Student name
     * Course name
     * Average Note
-10. Add a new column to the previous table (assigned teacher) and update it with the proper information.
-11. Delete the oldest teacher (courses assigned to her should be empty).
+8. Add a new column to the previous table (assigned teacher) and update it with the proper information.
 
 #####Key Points:#####
 
-1,2,3,4,5,8
+1,2,3,4,5,6
 
 #####Commit:#####
 
