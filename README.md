@@ -308,8 +308,7 @@ Commit your practice code.
    - An student can assist several courses during the same year.
    - A teacher can be assigned to several courses.
    - For each course, each student has 3 partial notes and a final note.
-
-Create all relationship that you think they are required.
+   - Create all relationship that you think they are required.
 
 2. Insert information for 3 teachers, 3 courses and 10 students per course.
 3. List students and teachers for a given course. The output format should be:
