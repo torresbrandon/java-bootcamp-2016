@@ -252,7 +252,7 @@ Commit your practice code.
 → [index](#index)
 
 
-# ###Topic 4: Services (3 days)####
+####Topic 4: Services (3 days)####
 
 #####Reading:#####
 1. [How to create services in Java](http://www.makinggoodsoftware.com/2009/11/17/how-to-create-services-in-java/)
@@ -326,15 +326,11 @@ Create all relationship that you think they are required
           Friday 08:45 - 10:40: <course-name>
 
 6. Identify and Optimize all queries
-7. Create a table for students that have more than 1 partial note with a value less than 7. The table should contain the following information:
-    * Student name
-    * Course name
-    * Average Note
-8. Add a new column to the previous table (assigned teacher) and update it with the proper information.
+7. Connect to MySQL using Java JDBC and perform the query you have developed in excercise 5.
 
 #####Key Points:#####
 
-1,2,3,4,5,6
+1,2,3,5,7
 
 #####Commit:#####
 
