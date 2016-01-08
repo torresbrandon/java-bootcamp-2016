@@ -309,8 +309,9 @@ Commit your practice code.
    - A teacher can be assigned to several courses.
    - For each course, each student has 3 partial notes and a final note.
 
-Create all relationship that you think they are required
-2. Insert information for 3 teachers, 3 courses and 10 students per course
+Create all relationship that you think they are required.
+
+2. Insert information for 3 teachers, 3 courses and 10 students per course.
 3. List students and teachers for a given course. The output format should be:
 
         Course: <course-name>
@@ -327,7 +328,7 @@ Create all relationship that you think they are required
           Monday 15:00 - 17:30: <course-name>
           Friday 08:45 - 10:40: <course-name>
 
-6. Identify and Optimize all queries
+6. Identify and Optimize all queries.
 7. Connect to MySQL using Java JDBC and perform the query you have developed in excercise 5.
 
 #####Key Points:#####
