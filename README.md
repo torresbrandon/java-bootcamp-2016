@@ -39,7 +39,7 @@ exercises**
 
     * [Topic 1: Maven](#topic-1-maven-1-day)
 
-    * [Topic 2: Test Driven Development](#topic-2-test-driven-development-3-days)
+    * [Topic 2: Test Driven Development](#topic-2-test-driven-development-2-days)
 
     * [Topic 3: Services](#topic-3-services-2-days)
 
