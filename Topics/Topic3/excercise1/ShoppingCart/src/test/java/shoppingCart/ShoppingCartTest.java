@@ -10,12 +10,17 @@ import org.junit.Test;
 import shoppingCart.*;
 
 /**
- * @author Brandon
- *
+ * @author Brandon/
+ * 
+ */
+/** This class is the test for the operation in the service
+ *         of ShoppingCart
  */
 public class ShoppingCartTest {
-	
-	
+
+	/**
+	 * This method compare if a item was add in the list
+	 */
 	@Test
 	public void addItemTest() {
 		ShoppingCart cart = new ShoppingCart();
@@ -30,6 +35,9 @@ public class ShoppingCartTest {
 		assertTrue(cart.getListItems().get(0).getIdItem() == newItem.getIdItem());
 	}
 
+	/**
+	 * This method compare if a item was deleted in the list
+	 */
 	@Test
 	public void deleteItemTest() {
 		ShoppingCart cart = new ShoppingCart();
@@ -44,6 +52,9 @@ public class ShoppingCartTest {
 		assertFalse(cart.getListItems().contains(newItem));
 	}
 
+	/**
+	 * This method compare if the item that was add, is find by id in the list
+	 */
 	@Test
 	public void searchItemByIdTest() {
 		ShoppingCart cart = new ShoppingCart();
@@ -58,7 +69,10 @@ public class ShoppingCartTest {
 		assertEquals(cart.searchItemById(newItem.getIdItem()), newItem);
 
 	}
-
+	
+	/**
+	 * This method compare if the item that was add, is find by name in tthe list
+	 */
 	@Test
 	public void SearchItemByNameTest() {
 		ShoppingCart cart = new ShoppingCart();
@@ -73,6 +87,9 @@ public class ShoppingCartTest {
 		assertEquals(cart.searchItemByName(newItem.getNameItem()), newItem);
 	}
 
+	/**
+	 * This method compare if the item that was add, is modify the color of a Item
+	 */
 	@Test
 	public void modifyColorItemTest() {
 		ShoppingCart cart = new ShoppingCart();
@@ -88,6 +105,9 @@ public class ShoppingCartTest {
 		assertEquals(cart.getListItems().get(cart.getListItems().indexOf(newItem)).getColor(), newColor);
 	}
 
+	/**
+	 * This method compare if the item that was add, is modify the quantity of a Item
+	 */
 	@Test
 	public void testModifyQuantity() {
 		ShoppingCart cart = new ShoppingCart();
@@ -104,6 +124,9 @@ public class ShoppingCartTest {
 
 	}
 
+	/**
+	 * This method shows the total of shopping cart
+	 */
 	@Test
 	public void testShowTotalShoppingCart() {
 		ShoppingCart cart = new ShoppingCart();
@@ -128,6 +151,9 @@ public class ShoppingCartTest {
 
 	}
 
+	/**
+	 * This method compare the size of the list with the elements that was add
+	 */
 	@Test
 	public void testSizeShoppingCart() {
 		ShoppingCart cart = new ShoppingCart();
