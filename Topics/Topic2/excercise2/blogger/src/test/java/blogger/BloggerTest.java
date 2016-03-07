@@ -1,11 +1,14 @@
+package blogger;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import blogger.Blogger;;
+
 /*
  * This class has the TestCase about little features of  Blogger
  */
-public class TestBlogger {
+public class BloggerTest {
 
 	/*
 	 * This case evaluated that the entry in the blog is the saved like the first in the list of entries 

@@ -1,11 +1,14 @@
+package blogger;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Blogger {
 
-	private ArrayList entryList;
+	private List entryList;
 
 	public Blogger() {
-		entryList = new ArrayList();
+		entryList = new LinkedList();
 	}
 
 	//This method is about to add a entry for the blogger
@@ -43,11 +46,13 @@ public class Blogger {
 		return aux;
 	}
 
-	public ArrayList getEntryList() {
+	
+
+	public List getEntryList() {
 		return entryList;
 	}
 
-	public void setEntryList(ArrayList entryList) {
+	public void setEntryList(List entryList) {
 		this.entryList = entryList;
 	}
 

@@ -1,12 +1,15 @@
-import java.util.ArrayList;
+package fileList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class FileList {
 
-	private ArrayList<String> recentList;
+	private List<String> recentList;
 
 	public FileList() {
 
-		recentList = new ArrayList<String>();
+		recentList = new LinkedList<String>();
+		
 	}
 
 	public boolean beginList() {
@@ -52,11 +55,11 @@ public class FileList {
 		return recentList.size();
 	}
 
-	public ArrayList<String> getRecentList() {
+	public List<String> getRecentList() {
 		return recentList;
 	}
 
-	public void setRecentList(ArrayList<String> recentList) {
+	public void setRecentList(LinkedList<String> recentList) {
 		this.recentList = recentList;
 	}
 

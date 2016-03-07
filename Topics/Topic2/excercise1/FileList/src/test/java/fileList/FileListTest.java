@@ -1,14 +1,17 @@
+package fileList;
 import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 
 import org.junit.Test;
 
+import fileList.FileList;
+
 /*
  * This class has the TestCase about the recent file list
  * 
  */
-public class TestListas {
+public class FileListTest {
 
 	/*
 	 * This case test if the list is empty
@@ -16,8 +19,8 @@ public class TestListas {
 	@Test
 	public void testEmpty() {
 		FileList newList = new FileList();
-		assertTrue(newList.beginList() == true);
-
+		assertTrue(newList.getRecentList().isEmpty());
+		
 	}
 
 	/*
@@ -29,9 +32,10 @@ public class TestListas {
 	public void testAddRecentList() {
 		FileList newList = new FileList();
 		String fileName = "Archivo 1";
+		String nuevo = "Archivo 1";
 		newList.openFile(fileName);
-		assertTrue(newList.getRecentList().get(0) == fileName);
-
+		assertTrue(newList.getRecentList().get(0) == nuevo);
+		assertEquals(newList.getRecentList().get(0), nuevo);
 	}
 
 	/*
@@ -46,7 +50,7 @@ public class TestListas {
 		newList.openFile(fileName);
 		newList.openFile(fileName2);
 		newList.openFile(fileName3);
-		assertTrue(newList.repeat(fileName2) == true);
+		//add again fileName2;
 		newList.openFile(fileName2);
 		assertTrue(newList.getRecentList().get(0) == fileName2);
 
@@ -67,8 +71,12 @@ public class TestListas {
 		}
 		assertTrue(newList.sizeList() == 15);
 		String auxiliary = newList.getRecentList().get(13);
-		newList.openFile("Archivo" +20 +".doc");
+		newList.openFile("Archivo" +12 +".doc");
+		if(newList.getRecentList().contains("Archivo12.doc")==true){
+			assertTrue(newList.getRecentList().get(0) == "Archivo12.doc");
+			assertTrue(newList.sizeList() == 15);
+		}else{
 		assertTrue(newList.getRecentList().get(14) == auxiliary);
-
+		}
 	}
 }

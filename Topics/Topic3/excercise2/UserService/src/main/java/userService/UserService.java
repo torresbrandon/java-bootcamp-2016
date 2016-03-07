@@ -52,6 +52,8 @@ public class UserService implements DBService {
 		for (int i = 0; i < registers.size(); i++) {
 			if (registers.get(i).getIdPerson() == id) {
 				person = registers.get(i);
+				conn.closeConnect();
+				return person;
 
 			}
 		}
@@ -74,6 +76,7 @@ public class UserService implements DBService {
 		for (int i = 0; i < registers.size(); i++) {
 			if (registers.get(i).getIdPerson() == id) {
 				registers.get(i).setName(name);
+				break;
 			}
 
 		}
@@ -95,6 +98,7 @@ public class UserService implements DBService {
 			if (registers.get(i).getIdPerson() == id) {
 
 				registers.remove(i);
+				break;
 
 			}
 		}

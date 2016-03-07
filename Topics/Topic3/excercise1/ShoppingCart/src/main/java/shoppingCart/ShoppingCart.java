@@ -55,6 +55,7 @@ public class ShoppingCart implements ShoppingOperations {
 		for (int i = 0; i < listItems.size(); i++) {
 			if (listItems.get(i).getIdItem() == id) {
 				product = listItems.get(i);
+				return product;
 			}
 		}
 		return product;
@@ -69,6 +70,7 @@ public class ShoppingCart implements ShoppingOperations {
 		for (int i = 0; i < listItems.size(); i++) {
 			if (listItems.get(i).getNameItem() == productName) {
 				product = listItems.get(i);
+				return product;
 			}
 		}
 		return product;
@@ -83,6 +85,7 @@ public class ShoppingCart implements ShoppingOperations {
 		for (int i = 0; i < listItems.size(); i++) {
 			if (listItems.get(i).getIdItem() == id) {
 				listItems.get(i).setColor(newColor);
+				break;
 			}
 		}
 
@@ -97,6 +100,7 @@ public class ShoppingCart implements ShoppingOperations {
 		for (int i = 0; i < listItems.size(); i++) {
 			if (listItems.get(i).getIdItem() == id) {
 				listItems.get(i).setQuantity(newQuantity);
+				break;
 			}
 		}
 	}
@@ -110,7 +114,7 @@ public class ShoppingCart implements ShoppingOperations {
 		for (int i = 0; i < listItems.size(); i++) {
 			aux = listItems.get(i).getPriceUnit() * listItems.get(i).getQuantity();
 			total = total + aux;
-		}
+			}
 		return total;
 	}
 

@@ -1,5 +1,13 @@
+package main;
 
-public class mainBlogger {
+import blogger.Blogger;
+
+/**
+ * 
+ */
+
+
+public class MainBlogger {
 
 	
 	 public static void main( String[] args ){
@@ -16,3 +24,4 @@ public class mainBlogger {
 			blog.showRecentEntries();
 	 }
 }
+
